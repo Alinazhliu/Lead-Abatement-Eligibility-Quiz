@@ -1,0 +1,27 @@
+<div id="app">
+
+  <div>
+    <button onclick="setLang('en')">English</button>
+    <button onclick="setLang('es')">Español</button>
+    <button onclick="setLang('zh')">中文</button>
+  </div>
+
+  <h2 id="question"></h2>
+
+  <!-- Education Blurb -->
+  <p id="blurb" style="max-width:600px;margin:auto;"></p>
+
+  <div id="buttons"></div>
+
+  <div id="incomeSection" style="display:none;">
+    <p>Household Size:</p>
+    <input id="size" type="number" min="1" max="8">
+
+    <p>Annual Income:</p>
+    <input id="income" type="number">
+
+    <br><br>
+    <button onclick="checkIncome()">Check Eligibility</button>
+  </div>
+
+</div>
